@@ -1,4 +1,4 @@
-package Class03_二叉树;
+package PracticeByDong;
 
 // 二叉树展开为链表
 // https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/?utm_source=LCUS&utm_medium=ip_redirect&utm_campaign=transfer2china
