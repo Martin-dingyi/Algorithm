@@ -1,6 +1,6 @@
 package PracticeByZuo.BinaryAnswer;
 
-import PracticeByZuo.Comparator;
+import PracticeByZuo.ComparatorUtils;
 
 import java.util.PriorityQueue;
 
@@ -55,7 +55,7 @@ public class Code06_WaitingTime {
 
     //
     public static void main(String[] args) {
-        Comparator cp = new Comparator();
+        ComparatorUtils cp = new ComparatorUtils();
         int textTimes = 500000;
         boolean success = true;
         for (int i = 0; i < textTimes; i++) {

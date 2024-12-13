@@ -1,6 +1,6 @@
 package PracticeByZuo.Sort.Practice;
 
-import PracticeByZuo.Comparator;
+import PracticeByZuo.ComparatorUtils;
 
 import java.util.Arrays;
 
@@ -65,7 +65,7 @@ public class GetSpecialBig {
         int maxSize = 10;
         int maxValue = 10;
         boolean success = true;
-        Comparator cp = new Comparator();
+        ComparatorUtils cp = new ComparatorUtils();
         int[] arr;
         for (int i = 0; i < testTimes; i++) {
             do {

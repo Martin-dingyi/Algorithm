@@ -1,6 +1,6 @@
 package PracticeByZuo.Sort.Practice;
 
-import PracticeByZuo.Comparator;
+import PracticeByZuo.ComparatorUtils;
 
 import java.util.*;
 
@@ -156,7 +156,7 @@ public class MergeKSortedLists {
             copy_al.add(new LinkedList());
         }
         // 创建链表数组
-        Comparator cp = new Comparator();
+        ComparatorUtils cp = new ComparatorUtils();
         int[] arr = null;
         for (int i = 0; i < 500000; i++) {
             // 创建k个链表，放进al中

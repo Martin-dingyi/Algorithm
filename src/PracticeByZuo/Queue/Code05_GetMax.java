@@ -1,6 +1,6 @@
 package PracticeByZuo.Queue;
 
-import PracticeByZuo.Comparator;
+import PracticeByZuo.ComparatorUtils;
 
 import java.util.Arrays;
 
@@ -15,7 +15,7 @@ public class Code05_GetMax {
     }
 
     public static void main(String[] args) {
-        Comparator cp = new Comparator();
+        ComparatorUtils cp = new ComparatorUtils();
         int[] arr = cp.generateRandomArray(10, 10);
         System.out.println(Arrays.toString(arr));
         System.out.println(getMax(arr, 0, arr.length - 1));

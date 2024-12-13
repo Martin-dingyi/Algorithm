@@ -1,6 +1,6 @@
 package PracticeByZuo.Sort;
 
-import PracticeByZuo.Comparator;
+import PracticeByZuo.ComparatorUtils;
 
 import java.util.Arrays;
 
@@ -83,7 +83,7 @@ public class HeapSort {
 
     public static void main(String[] args) {
         int[] test = {1, 5, 6, 5, 6, 3, 4};
-        Comparator cp = new Comparator();
+        ComparatorUtils cp = new ComparatorUtils();
         int testTimes = 500000;
         int maxSize = 10;
         int maxValue = 10;

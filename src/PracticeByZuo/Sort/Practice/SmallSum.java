@@ -1,6 +1,6 @@
 package PracticeByZuo.Sort.Practice;
 
-import PracticeByZuo.Comparator;
+import PracticeByZuo.ComparatorUtils;
 /*
  题目：数组中一个数前面的，比它小的数的合叫这个数的最小和
  求数组中所有数的最小和的和
@@ -62,7 +62,7 @@ public class SmallSum {
 
     public static void main(String[] args) {
 //        int[] arr = {1, 3, 8, 5, 6};
-        Comparator cp = new Comparator();
+        ComparatorUtils cp = new ComparatorUtils();
         int textTimes = 500000;
         int maxValue = 10;
         int maxSize = 10;

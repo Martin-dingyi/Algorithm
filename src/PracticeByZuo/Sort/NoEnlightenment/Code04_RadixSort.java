@@ -1,6 +1,6 @@
 package PracticeByZuo.Sort.NoEnlightenment;
 
-import PracticeByZuo.Comparator;
+import PracticeByZuo.ComparatorUtils;
 
 import java.util.LinkedList;
 
@@ -69,7 +69,7 @@ public class Code04_RadixSort {
 
     public static void main(String[] args) {
 //        int[] arr = {1, 5, 6, 5, 6, 3, 6};
-        Comparator cp = new Comparator();
+        ComparatorUtils cp = new ComparatorUtils();
         int[] arr = cp.generateRandomArray(10, 1000);
         cp.print(arr);
         radixSort(arr);

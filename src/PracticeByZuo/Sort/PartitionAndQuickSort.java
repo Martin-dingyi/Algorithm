@@ -1,6 +1,6 @@
 package PracticeByZuo.Sort;
 
-import PracticeByZuo.Comparator;
+import PracticeByZuo.ComparatorUtils;
 
 import java.util.Arrays;
 
@@ -72,7 +72,7 @@ public class PartitionAndQuickSort {
 
     public static void main(String[] args) {
 //        int[] arr = {1, 5, 8, 5, 6, 3, 6};
-        Comparator cp = new Comparator();
+        ComparatorUtils cp = new ComparatorUtils();
         int testTimes = 500000;
         int maxSize = 10;
         int maxValue = 10;

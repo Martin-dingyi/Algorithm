@@ -1,6 +1,6 @@
 package PracticeByZuo.Sort.NoEnlightenment;
 
-import PracticeByZuo.Comparator;
+import PracticeByZuo.ComparatorUtils;
 
 import java.util.Arrays;
 
@@ -28,7 +28,7 @@ public class Code01_SelectionSort {
     }
 
     public static void main(String[] args) {
-        Comparator cp = new Comparator();
+        ComparatorUtils cp = new ComparatorUtils();
         int[] arr = cp.generateRandomArray(100, 10);
         System.out.println("生成的随机数组为：\n" + Arrays.toString(arr));
         int[] copyArr = cp.copyArray(arr);

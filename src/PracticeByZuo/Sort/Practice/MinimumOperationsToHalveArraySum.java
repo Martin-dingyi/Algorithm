@@ -1,6 +1,6 @@
 package PracticeByZuo.Sort.Practice;
 
-import PracticeByZuo.Comparator;
+import PracticeByZuo.ComparatorUtils;
 
 import java.util.PriorityQueue;
 
@@ -49,7 +49,7 @@ public class MinimumOperationsToHalveArraySum {
 
     public static void main(String[] args) {
 //        int[] arr = {50, 50, 100, 20};
-        Comparator cp = new Comparator();
+        ComparatorUtils cp = new ComparatorUtils();
         boolean success = true;
         for (int i = 0; i < 500000; i++) {
             int[] arr = cp.generateRandomArray(10, 10);

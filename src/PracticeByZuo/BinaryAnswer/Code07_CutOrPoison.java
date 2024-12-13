@@ -1,7 +1,7 @@
 package PracticeByZuo.BinaryAnswer;
 
 
-import PracticeByZuo.Comparator;
+import PracticeByZuo.ComparatorUtils;
 
 // 刀砍毒杀怪兽问题
 // 怪兽的初始血量是一个整数hp，给出每一回合刀砍和毒杀的数值cuts和poisons
@@ -61,7 +61,7 @@ public class Code07_CutOrPoison {
     }
 
     public static void main(String[] args) {
-        Comparator cp = new Comparator();
+        ComparatorUtils cp = new ComparatorUtils();
         int textTimes = 500000;
         boolean success = true;
         for (int i = 0; i < textTimes; i++) {

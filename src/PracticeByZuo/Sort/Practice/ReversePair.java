@@ -1,6 +1,6 @@
 package PracticeByZuo.Sort.Practice;
 
-import PracticeByZuo.Comparator;
+import PracticeByZuo.ComparatorUtils;
 /*
 题目：一个数组中的一个数，如果左边的数如果大于右边的某个数两倍，则称这两个数为一个翻转对,
 求数组中的所有数的翻转对之和
@@ -67,7 +67,7 @@ public class ReversePair {
 //        int[] arr = {4, 5, 1, 2};
 //        System.out.println(comparator(arr));
 //        System.out.println(reversePair(arr, 0, arr.length - 1));
-        Comparator cp = new Comparator();
+        ComparatorUtils cp = new ComparatorUtils();
         int textTimes = 500000;
         int maxSize = 10;
         int maxValue = 10;

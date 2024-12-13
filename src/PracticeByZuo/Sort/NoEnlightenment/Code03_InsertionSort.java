@@ -1,6 +1,6 @@
 package PracticeByZuo.Sort.NoEnlightenment;
 
-import PracticeByZuo.Comparator;
+import PracticeByZuo.ComparatorUtils;
 
 public class Code03_InsertionSort {
     public static void swap(int[] arr, int i, int j) {
@@ -28,7 +28,7 @@ public class Code03_InsertionSort {
         int maxSize = 100;
         int maxValue = 10;
         boolean success = true;
-        Comparator cp = new Comparator();
+        ComparatorUtils cp = new ComparatorUtils();
         for (int i = 0; i < testTime; i++) {
             int[] arr = cp.generateRandomArray(maxSize, maxValue);
 //        System.out.println("生成的随机数组为：\n" + Arrays.toString(arr));

@@ -1,6 +1,6 @@
 package PracticeByZuo.BinaryAnswer.BinarySearch;
 
-import PracticeByZuo.Comparator;
+import PracticeByZuo.ComparatorUtils;
 
 import java.util.Arrays;
 
@@ -39,7 +39,7 @@ public class Code01_BSExist {
         int maxSize = 10;
         int maxValue = 10;
         boolean success = true;
-        Comparator cp = new Comparator();
+        ComparatorUtils cp = new ComparatorUtils();
         for (int i = 0; i < testTime; i++) {
             int[] arr = cp.generateRandomArray(maxSize, maxValue);
             Arrays.sort(arr);
