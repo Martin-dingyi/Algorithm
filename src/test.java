@@ -2,8 +2,8 @@ import java.util.HashMap;
 
 public class test {
     public static void main(String[] args) {
-        int[] nums = {1, 2, 2, 2, 2, 2, 3, 4, 5};
-        System.out.println(testBinary(nums, 2));
+        int[] nums = {1, 2, 2, 2, 2, 2, 4, 4, 4, 5};
+        System.out.println(testBinary(nums, 3));
     }
 
     public static void print(String a, int...i) {
@@ -29,19 +29,20 @@ public class test {
     private static int testBinary(int[] arr, int target) {
         int left = 0;
         int right = arr.length - 1;
-        int ans = -1;
+        int targetIndex = -1;
 
         while (left <= right) {
             int mid = left - ((left - right) >> 1);
 
-            if (arr[mid] >= target) {
-                ans = mid;
+            // 1 2 2 2 2 2 2 3 4
+            if (target <= arr[mid]) {
+                targetIndex = mid;
                 right = mid - 1;
             } else {
                 left = mid + 1;
             }
         }
 
-        return ans;
+        return targetIndex;
     }
 }

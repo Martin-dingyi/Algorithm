@@ -4,52 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94648e41-8239-47ac-b2d5-e2ea8c95b98e" name="Changes" comment="修改文件内容的合并测试-branch部分">
-      <change afterPath="$PROJECT_DIR$/.idea/ApifoxUploaderProjectSetting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/highlightedFiles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/LeverOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/OpenLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb01_containsDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb02_isAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb03_twoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb04_groupAnagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb05_topKFrequent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb06_EncodeStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb07_isValidSudoku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb08_longestConsecutive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class02_双指针/pb01_isPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class02_双指针/pb02_twoSumII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class02_双指针/pb03_threeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class02_双指针/pb04_ContainerWithMostWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class03_二分查找/pb01_BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class03_二分查找/pb02_searchMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class03_二分查找/pb03_kokoEatingBananas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class03_二分查找/pb04_findMin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class03_二分查找/pb05_searchInRotated.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/code002_RemoveElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/isSymmetric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/TreeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByZuo/BinaryAnswer/BinarySearch/Code01_BSExist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByZuo/BinaryAnswer/BinarySearch/Code01_BSExist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByZuo/BinaryAnswer/Code06_WaitingTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByZuo/BinaryAnswer/Code06_WaitingTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByZuo/BinaryAnswer/Code07_CutOrPoison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByZuo/BinaryAnswer/Code07_CutOrPoison.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByZuo/BinaryTree/Code08_CompletenessOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByZuo/BinaryTree/Code08_CompletenessOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByZuo/Comparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByZuo/ComparatorUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByZuo/Queue/Code05_GetMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByZuo/Queue/Code05_GetMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByZuo/Sort/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByZuo/Sort/HeapSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByZuo/Sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByZuo/Sort/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByZuo/Sort/NoEnlightenment/Code01_SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByZuo/Sort/NoEnlightenment/Code01_SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByZuo/Sort/NoEnlightenment/Code02_BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByZuo/Sort/NoEnlightenment/Code02_BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByZuo/Sort/NoEnlightenment/Code03_InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByZuo/Sort/NoEnlightenment/Code03_InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByZuo/Sort/NoEnlightenment/Code04_RadixSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByZuo/Sort/NoEnlightenment/Code04_RadixSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByZuo/Sort/PartitionAndQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByZuo/Sort/PartitionAndQuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByZuo/Sort/Practice/GetSpecialBig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByZuo/Sort/Practice/GetSpecialBig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByZuo/Sort/Practice/MergeKSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByZuo/Sort/Practice/MergeKSortedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByZuo/Sort/Practice/MinimumOperationsToHalveArraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByZuo/Sort/Practice/MinimumOperationsToHalveArraySum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByZuo/Sort/Practice/ReversePair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByZuo/Sort/Practice/ReversePair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByZuo/Sort/Practice/SmallSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByZuo/Sort/Practice/SmallSum.java" afterDir="false" />
+    <list default="true" id="94648e41-8239-47ac-b2d5-e2ea8c95b98e" name="Changes" comment="二分法，pb05第一套方案保存">
+      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class02_双指针/pb05_trapRainWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class03_二分查找/pb06_TimeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/LongestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/pb01_maxProfit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class03_二分查找/pb05_searchInRotated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class03_二分查找/pb05_searchInRotated.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,12 +76,14 @@
     "Application.Code010_FindDuplicateSubtrees.executor": "Run",
     "Application.Code09_CountCompleteTreeNodes.executor": "Run",
     "Application.LeverOrder.executor": "Run",
+    "Application.LongestPalindrome.executor": "Run",
     "Application.MartinByZuo.test.executor": "Run",
     "Application.OpenLock.executor": "Run",
     "Application.code002_RemoveElement.executor": "JRebel Executor",
     "Application.isSymmetric.executor": "Run",
     "Application.pb01_containsDuplicate.executor": "Debug",
     "Application.pb01_isPalindrome.executor": "Run",
+    "Application.pb01_maxProfit.executor": "Run",
     "Application.pb02_isAnagram.executor": "Run",
     "Application.pb02_searchMatrix.executor": "Run",
     "Application.pb02_twoSumII.executor": "Run",
@@ -129,9 +92,10 @@
     "Application.pb04_ContainerWithMostWater.executor": "Run",
     "Application.pb04_findMin.executor": "Debug",
     "Application.pb04_groupAnagrams.executor": "Run",
-    "Application.pb05_searchInRotated.executor": "Debug",
+    "Application.pb05_searchInRotated.executor": "Run",
     "Application.pb05_topKFrequent.executor": "Run",
     "Application.pb06_EncodeStrings.executor": "Run",
+    "Application.pb06_TimeMap.executor": "Run",
     "Application.pb07_isValidSudoku.executor": "Run",
     "Application.pb08_longestConsecutive.executor": "Run",
     "Application.test.executor": "Run",
@@ -153,13 +117,13 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.pb05_searchInRotated">
-    <configuration name="pb02_searchMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class03_二分查找.pb02_searchMatrix" />
+  <component name="RunManager" selected="Application.LongestPalindrome">
+    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class04_滑动窗口.LongestPalindrome" />
       <module name="Martin_Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PracticeByMyself.class03_二分查找.*" />
+          <option name="PATTERN" value="PracticeByMyself.class04_滑动窗口.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,25 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pb03_kokoEatingBananas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class03_二分查找.pb03_kokoEatingBananas" />
+    <configuration name="pb01_maxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class04_滑动窗口.pb01_maxProfit" />
       <module name="Martin_Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PracticeByMyself.class03_二分查找.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pb04_findMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class03_二分查找.pb04_findMin" />
-      <module name="Martin_Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PracticeByMyself.class03_二分查找.*" />
+          <option name="PATTERN" value="PracticeByMyself.class04_滑动窗口.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,6 +157,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="pb06_TimeMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class03_二分查找.pb06_TimeMap" />
+      <module name="Martin_Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PracticeByMyself.class03_二分查找.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test" />
       <module name="Martin_Algorithm" />
@@ -215,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.pb05_searchInRotated" />
-        <item itemvalue="Application.pb04_findMin" />
+        <item itemvalue="Application.LongestPalindrome" />
+        <item itemvalue="Application.pb01_maxProfit" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.pb03_kokoEatingBananas" />
-        <item itemvalue="Application.pb02_searchMatrix" />
+        <item itemvalue="Application.pb06_TimeMap" />
+        <item itemvalue="Application.pb05_searchInRotated" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +225,14 @@
       <workItem from="1733963281775" duration="8485000" />
       <workItem from="1733992479617" duration="4427000" />
       <workItem from="1734014652095" duration="3178000" />
-      <workItem from="1734054092493" duration="2540000" />
+      <workItem from="1734054092493" duration="4900000" />
+      <workItem from="1734062256255" duration="1504000" />
+      <workItem from="1734067795650" duration="1584000" />
+      <workItem from="1734076918896" duration="7000" />
+      <workItem from="1734080729852" duration="1198000" />
+      <workItem from="1734144085343" duration="1405000" />
+      <workItem from="1734232442025" duration="7000" />
+      <workItem from="1734354116374" duration="1783000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <option name="closed" value="true" />
@@ -439,7 +410,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713181433710</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="二分法，pb05第一套方案保存">
+      <option name="closed" value="true" />
+      <created>1734057664707</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1734057664707</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +517,8 @@
     <MESSAGE value="修改文件内容的合并测试" />
     <MESSAGE value="修改文件内容的合并测试-主分支部分" />
     <MESSAGE value="修改文件内容的合并测试-branch部分" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改文件内容的合并测试-branch部分" />
+    <MESSAGE value="二分法，pb05第一套方案保存" />
+    <option name="LAST_COMMIT_MESSAGE" value="二分法，pb05第一套方案保存" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Martin_Algorithm$code002_RemoveElement.ic" NAME="code002_RemoveElement Coverage Results" MODIFIED="1731772832419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
