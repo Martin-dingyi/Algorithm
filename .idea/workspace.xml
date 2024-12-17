@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94648e41-8239-47ac-b2d5-e2ea8c95b98e" name="Changes" comment="二分法，pb05第一套方案保存">
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class02_双指针/pb05_trapRainWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class03_二分查找/pb06_TimeMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/LongestPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/pb01_maxProfit.java" afterDir="false" />
+    <list default="true" id="94648e41-8239-47ac-b2d5-e2ea8c95b98e" name="Changes" comment="最长回文子串，保存第一版">
+      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/pb02_LengthOfLongestSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/pb03_CharacterReplacement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/pb04_CheckInclusion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rememberThis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class03_二分查找/pb05_searchInRotated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class03_二分查找/pb05_searchInRotated.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/LongestPalindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,11 +84,14 @@
     "Application.pb01_containsDuplicate.executor": "Debug",
     "Application.pb01_isPalindrome.executor": "Run",
     "Application.pb01_maxProfit.executor": "Run",
+    "Application.pb02_LengthOfLongestSubstring.executor": "Run",
     "Application.pb02_isAnagram.executor": "Run",
     "Application.pb02_searchMatrix.executor": "Run",
     "Application.pb02_twoSumII.executor": "Run",
+    "Application.pb03_CharacterReplacement.executor": "Run",
     "Application.pb03_kokoEatingBananas.executor": "Run",
     "Application.pb03_threeSum.executor": "Run",
+    "Application.pb04_CheckInclusion.executor": "Debug",
     "Application.pb04_ContainerWithMostWater.executor": "Run",
     "Application.pb04_findMin.executor": "Debug",
     "Application.pb04_groupAnagrams.executor": "Run",
@@ -98,6 +101,7 @@
     "Application.pb06_TimeMap.executor": "Run",
     "Application.pb07_isValidSudoku.executor": "Run",
     "Application.pb08_longestConsecutive.executor": "Run",
+    "Application.rememberThis.executor": "Run",
     "Application.test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -117,7 +121,7 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.LongestPalindrome">
+  <component name="RunManager" selected="Application.pb04_CheckInclusion">
     <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class04_滑动窗口.LongestPalindrome" />
       <module name="Martin_Algorithm" />
@@ -131,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pb01_maxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class04_滑动窗口.pb01_maxProfit" />
+    <configuration name="pb02_LengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class04_滑动窗口.pb02_LengthOfLongestSubstring" />
       <module name="Martin_Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -144,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pb05_searchInRotated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class03_二分查找.pb05_searchInRotated" />
+    <configuration name="pb03_CharacterReplacement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class04_滑动窗口.pb03_CharacterReplacement" />
       <module name="Martin_Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PracticeByMyself.class03_二分查找.*" />
+          <option name="PATTERN" value="PracticeByMyself.class04_滑动窗口.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pb06_TimeMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class03_二分查找.pb06_TimeMap" />
+    <configuration name="pb04_CheckInclusion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class04_滑动窗口.pb04_CheckInclusion" />
       <module name="Martin_Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PracticeByMyself.class03_二分查找.*" />
+          <option name="PATTERN" value="PracticeByMyself.class04_滑动窗口.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,8 +174,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
+    <configuration name="rememberThis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rememberThis" />
       <module name="Martin_Algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -179,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pb04_CheckInclusion" />
+        <item itemvalue="Application.pb03_CharacterReplacement" />
+        <item itemvalue="Application.pb02_LengthOfLongestSubstring" />
+        <item itemvalue="Application.rememberThis" />
         <item itemvalue="Application.LongestPalindrome" />
-        <item itemvalue="Application.pb01_maxProfit" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.pb06_TimeMap" />
-        <item itemvalue="Application.pb05_searchInRotated" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +236,10 @@
       <workItem from="1734080729852" duration="1198000" />
       <workItem from="1734144085343" duration="1405000" />
       <workItem from="1734232442025" duration="7000" />
-      <workItem from="1734354116374" duration="1783000" />
+      <workItem from="1734354116374" duration="2161000" />
+      <workItem from="1734358052407" duration="537000" />
+      <workItem from="1734401757703" duration="1028000" />
+      <workItem from="1734407218074" duration="13451000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <option name="closed" value="true" />
@@ -418,7 +425,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734057664707</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="最长回文子串，保存第一版">
+      <option name="closed" value="true" />
+      <created>1734355923467</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1734355923467</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,7 +533,19 @@
     <MESSAGE value="修改文件内容的合并测试-主分支部分" />
     <MESSAGE value="修改文件内容的合并测试-branch部分" />
     <MESSAGE value="二分法，pb05第一套方案保存" />
-    <option name="LAST_COMMIT_MESSAGE" value="二分法，pb05第一套方案保存" />
+    <MESSAGE value="最长回文子串，保存第一版" />
+    <option name="LAST_COMMIT_MESSAGE" value="最长回文子串，保存第一版" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/pb04_CheckInclusion.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Martin_Algorithm$code002_RemoveElement.ic" NAME="code002_RemoveElement Coverage Results" MODIFIED="1731772832419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">

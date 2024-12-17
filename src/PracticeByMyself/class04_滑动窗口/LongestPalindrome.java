@@ -3,62 +3,44 @@ package PracticeByMyself.class04_滑动窗口;
 /**
  * @author mdy
  * @date 2024-12-16 21:02
- * @description
+ * @description <a href="https://leetcode.cn/problems/longest-palindromic-substring/submissions/587495714/">...</a>
  */
 public class LongestPalindrome {
 
 
 
     public static void main(String[] args) {
-        String source = "babad";
+        String source = "ac";
         System.out.println(longestPalindrome(source));
+//        System.out.println(findLongestPalindromeByMid(source, 2, 2));
     }
 
-    private static String[][] cache;
 
     public static String longestPalindrome(String s) {
-        if (s.length() < 2 || isPalindrome(s, 0, s.length() - 1)) {
-            return s;
+
+        String res = "";
+        for (int i = 0; i < s.length(); i++) {
+            String res1 = findLongestPalindromeByMid(s, i, i);
+            String res2 = findLongestPalindromeByMid(s, i, i + 1);
+
+            res1 = res1.length() > res2.length() ? res1 :res2;
+            res = res1.length() > res.length() ? res1 : res;
         }
-
-        cache = new String[s.length()][s.length()];
-
-        int left = 0;
-        int right = s.length() - 1;
-
-        String res1 = findLongest(s, left, right - 1);
-        String res2 = findLongest(s, left + 1, right);
-        return res1.length() > res2.length() ? res1 : res2;
+        return res;
     }
 
-    private static String findLongest(String s, int left, int right) {
-        if (left == right) {
-            return s.substring(left, left + 1);
-        }
+    private static String findLongestPalindromeByMid(String s, int mid1, int mid2) {
 
-        if (cache[left][right] != null) {
-            return cache[left][right];
-        }
-
-        if (isPalindrome(s, left, right)) {
-            return s.substring(left, right + 1);
-        } else {
-            cache[left][right - 1] = findLongest(s, left, right - 1);
-            cache[left + 1][right] = findLongest(s, left + 1, right);
-            return cache[left][right - 1].length() > cache[left + 1][right].length() ?
-                    cache[left][right - 1] : cache[left + 1][right];
-        }
-
-    }
-
-
-    private static boolean isPalindrome(String s, int left, int right) {
-        while (left < right) {
-            if (s.charAt(left++) != s.charAt(right--)) {
-                return false;
+        while(mid1 >= 0 && mid2 < s.length()) {
+            if (s.charAt(mid1) != s.charAt(mid2)) {
+                return s.substring(mid1 + 1, mid2);
             }
+            mid1--;
+            mid2++;
         }
 
-        return true;
+        return s.substring(mid1 + 1, mid2);
     }
+
+
 }
