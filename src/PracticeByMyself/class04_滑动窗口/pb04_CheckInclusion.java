@@ -1,5 +1,6 @@
 package PracticeByMyself.class04_滑动窗口;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Objects;
@@ -12,8 +13,8 @@ import java.util.Objects;
 public class pb04_CheckInclusion {
 
     public static void main(String[] args) {
-        String s1 = "ab";
-        String s2 = "eidbaooo";
+        String s1 = "r";
+        String s2 = "pilmtnzraxj";
         System.out.println(checkInclusion(s1, s2));
     }
 
@@ -23,26 +24,26 @@ public class pb04_CheckInclusion {
         // 2.思路2：利用哈希表记录s1各个字符出现的次数，在记录s2滑动窗口中各个字符出现的次数
         // 如果对得上，就表示存在。
         // 3.思路3：给s1排序，再给s2的滑动窗口中的字符串排序，比较是否相同即可
+        // 4.思路4：思路2换数组实现
         int length1 = s1.length();
         char[] chars1 = s1.toCharArray();
         char[] chars2 = s2.toCharArray();
-        HashMap<Character, Integer> charCount = new HashMap<>();
 
-        for (char c : chars1) {
-            charCount.merge(c, 1, Integer::sum);
-        }
+        Arrays.sort(chars1);
+        String sortedStr1 = new String(chars1);
 
-        for (int left = 0, right = 0; right < chars2.length; right++) {
+        int left = 0, right = 0;
+
+        while (right < s2.length()) {
             if (right - left + 1 != length1) {
+                right++;
                 continue;
             }
 
-            HashMap<Character, Integer> tempMap = new HashMap<>();
-            for (int i = left; i <= right; i++) {
-                tempMap.merge(chars2[i], 1, Integer::sum);
-            }
-
-            if (isCharCountMapEqual(charCount, tempMap)) {
+            char[] tempChars = s2.substring(left, right + 1).toCharArray();
+            Arrays.sort(tempChars);
+            String tempStr = new String(tempChars);
+            if (sortedStr1.equals(tempStr)) {
                 return true;
             }
 

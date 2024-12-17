@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94648e41-8239-47ac-b2d5-e2ea8c95b98e" name="Changes" comment="最长回文子串，保存第一版">
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/pb02_LengthOfLongestSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/pb03_CharacterReplacement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/pb04_CheckInclusion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rememberThis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="94648e41-8239-47ac-b2d5-e2ea8c95b98e" name="Changes" comment="滑动窗口的pb04_CheckInclusion，保留第二个思路">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/LongestPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/pb04_CheckInclusion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/pb04_CheckInclusion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +86,7 @@
     "Application.pb03_CharacterReplacement.executor": "Run",
     "Application.pb03_kokoEatingBananas.executor": "Run",
     "Application.pb03_threeSum.executor": "Run",
-    "Application.pb04_CheckInclusion.executor": "Debug",
+    "Application.pb04_CheckInclusion.executor": "Run",
     "Application.pb04_ContainerWithMostWater.executor": "Run",
     "Application.pb04_findMin.executor": "Debug",
     "Application.pb04_groupAnagrams.executor": "Run",
@@ -239,7 +234,7 @@
       <workItem from="1734354116374" duration="2161000" />
       <workItem from="1734358052407" duration="537000" />
       <workItem from="1734401757703" duration="1028000" />
-      <workItem from="1734407218074" duration="13451000" />
+      <workItem from="1734407218074" duration="14827000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <option name="closed" value="true" />
@@ -433,7 +428,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734355923467</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="滑动窗口的pb04_CheckInclusion，保留第二个思路">
+      <option name="closed" value="true" />
+      <created>1734430274693</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1734430274693</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,18 +537,8 @@
     <MESSAGE value="修改文件内容的合并测试-branch部分" />
     <MESSAGE value="二分法，pb05第一套方案保存" />
     <MESSAGE value="最长回文子串，保存第一版" />
-    <option name="LAST_COMMIT_MESSAGE" value="最长回文子串，保存第一版" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/pb04_CheckInclusion.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="滑动窗口的pb04_CheckInclusion，保留第二个思路" />
+    <option name="LAST_COMMIT_MESSAGE" value="滑动窗口的pb04_CheckInclusion，保留第二个思路" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Martin_Algorithm$code002_RemoveElement.ic" NAME="code002_RemoveElement Coverage Results" MODIFIED="1731772832419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
