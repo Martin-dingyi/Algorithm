@@ -57,11 +57,11 @@ public class Code08_CompletenessOfBinaryTree {
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);
-//        root.left = new entity.TreeNode(2);
-//        root.right = new entity.TreeNode(3);
-//        root.right.left = new entity.TreeNode(6);
-//        root.left.left = new entity.TreeNode(4);
-//        root.left.right = new entity.TreeNode(5);
+//        root.left = new common.entity.TreeNode(2);
+//        root.right = new common.entity.TreeNode(3);
+//        root.right.left = new common.entity.TreeNode(6);
+//        root.left.left = new common.entity.TreeNode(4);
+//        root.left.right = new common.entity.TreeNode(5);
         System.out.println(isCompleteTree(root));
     }
 

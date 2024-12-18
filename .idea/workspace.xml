@@ -4,34 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94648e41-8239-47ac-b2d5-e2ea8c95b98e" name="Changes" comment="滑动窗口的pb04_CheckInclusion，保留第三个思路">
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class02_双指针/pb06_删除有序数组重复项.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class02_双指针/pb07_移除元素.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class02_双指针/pb08_移除零.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/pb05_最小覆盖子串.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/pb06_找出异位词.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/pb07_无重复最长子串.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class06_链表/pb01_reverseList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class06_链表/pb02_mergeTwoLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class06_链表/pb03_reorderList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/ListNodeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/这里抄数组交换代码.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="94648e41-8239-47ac-b2d5-e2ea8c95b98e" name="Changes" comment="数组—哈希表的部分整理完成">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/FindMedianSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/FindMedianSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb01_containsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb01_存在重复数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb02_isAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb02_是不是Anagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb03_twoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb03_twoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb04_groupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb04_groupAnagrams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb05_topKFrequent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb05_topKFrequent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb06_EncodeStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb06_EncodeStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb07_isValidSudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb07_是有效的数独吗.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb08_longestConsecutive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb08_longestConsecutive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class02_双指针/pb02_twoSumII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class02_双指针/pb02_twoSumII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class02_双指针/pb09_最长回文子串.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/pb04_CheckInclusion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/pb04_CheckInclusion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/BestTimeToBuyAndSellStockIl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class99_其他/BestTimeToBuyAndSellStockIl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/FindMedianSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class99_其他/FindMedianSortedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/LeverOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class99_其他/LeverOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/entity/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/OpenLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class99_其他/OpenLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/PartitionKSubsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class99_其他/PartitionKSubsets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb01_存在重复数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method01_哈希表/pb01_存在重复数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb02_是不是Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method01_哈希表/pb02_是不是Anagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb03_twoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method01_哈希表/pb03_twoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb04_groupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method01_哈希表/pb04_groupAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb05_topKFrequent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method01_哈希表/pb05_topKFrequent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb06_EncodeStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method05_前缀和/pb06_ProductExceptSelf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb07_是有效的数独吗.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method01_哈希表/pb07_是有效的数独吗.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb08_longestConsecutive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method01_哈希表/pb08_longestConsecutive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class02_双指针/pb01_isPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method02_双指针/pb01_isPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class02_双指针/pb02_twoSumII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method02_双指针/pb02_twoSumII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class02_双指针/pb03_threeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method02_双指针/pb03_threeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class02_双指针/pb04_ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method02_双指针/pb04_ContainerWithMostWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class02_双指针/pb05_trapRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method02_双指针/pb05_trapRainWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class02_双指针/pb06_删除有序数组重复项.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method02_双指针/pb06_删除有序数组重复项.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class02_双指针/pb07_移除元素.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method02_双指针/pb07_移除元素.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class02_双指针/pb08_移除零.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method02_双指针/pb08_移除零.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class02_双指针/pb09_最长回文子串.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method02_双指针/pb09_最长回文子串.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class03_二分查找/pb01_BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method04_二分查找/pb01_BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class03_二分查找/pb02_searchMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method04_二分查找/pb02_searchMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class03_二分查找/pb03_kokoEatingBananas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method04_二分查找/pb03_kokoEatingBananas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class03_二分查找/pb04_findMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method04_二分查找/pb04_findMin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class03_二分查找/pb05_searchInRotated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method04_二分查找/pb05_searchInRotated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class03_二分查找/pb06_TimeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method04_二分查找/pb06_TimeMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/pb01_maxProfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method03_滑动窗口/pb01_maxProfit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/pb02_LengthOfLongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method03_滑动窗口/pb02_LengthOfLongestSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/pb03_CharacterReplacement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method03_滑动窗口/pb03_CharacterReplacement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/pb04_CheckInclusion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method03_滑动窗口/pb04_CheckInclusion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/pb05_最小覆盖子串.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method03_滑动窗口/pb05_最小覆盖子串.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/pb06_找出异位词.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method03_滑动窗口/pb06_找出异位词.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/pb07_无重复最长子串.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/method03_滑动窗口/pb07_无重复最长子串.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class06_链表/pb01_reverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class02_链表/pb01_reverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class06_链表/pb02_mergeTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class02_链表/pb02_mergeTwoLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class06_链表/pb03_reorderList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class02_链表/pb03_reorderList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/code002_RemoveElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/isSymmetric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class99_其他/isSymmetric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByNineChapter/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByZuo/BinaryTree/Code08_CompletenessOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByZuo/BinaryTree/Code08_CompletenessOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/ListNodeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/utils/ListUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/TreeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/utils/TreeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/entity/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rememberThis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rememberThis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,13 +169,13 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.pb08_longestConsecutive">
+  <component name="RunManager" selected="Application.test">
     <configuration name="pb04_groupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class01_数组.pb04_groupAnagrams" />
+      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class01_数组.method01_哈希表.pb04_groupAnagrams" />
       <module name="Martin_Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PracticeByMyself.class01_数组.*" />
+          <option name="PATTERN" value="PracticeByMyself.class01_数组.method05_前缀和.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,24 +184,11 @@
       </method>
     </configuration>
     <configuration name="pb06_删除有序数组重复项" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class02_双指针.pb06_删除有序数组重复项" />
+      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class01_数组.method02_双指针.pb06_删除有序数组重复项" />
       <module name="Martin_Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PracticeByMyself.class02_双指针.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pb07_无重复最长子串" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class04_滑动窗口.pb07_无重复最长子串" />
-      <module name="Martin_Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PracticeByMyself.class02_双指针.*" />
+          <option name="PATTERN" value="PracticeByMyself.class01_数组.method02_双指针.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,11 +197,11 @@
       </method>
     </configuration>
     <configuration name="pb08_移除零" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class02_双指针.pb08_移除零" />
+      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class01_数组.method02_双指针.pb08_移除零" />
       <module name="Martin_Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PracticeByMyself.class02_双指针.*" />
+          <option name="PATTERN" value="PracticeByMyself.class01_数组.method02_双指针.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,11 +210,11 @@
       </method>
     </configuration>
     <configuration name="pb08_longestConsecutive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class01_数组.pb08_longestConsecutive" />
+      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class01_数组.method01_哈希表.pb08_longestConsecutive" />
       <module name="Martin_Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PracticeByMyself.class01_数组.*" />
+          <option name="PATTERN" value="PracticeByMyself.class01_数组.method05_前缀和.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,13 +222,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="Martin_Algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.pb08_longestConsecutive" />
         <item itemvalue="Application.pb04_groupAnagrams" />
         <item itemvalue="Application.pb08_移除零" />
         <item itemvalue="Application.pb06_删除有序数组重复项" />
-        <item itemvalue="Application.pb07_无重复最长子串" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +288,7 @@
       <workItem from="1734358052407" duration="537000" />
       <workItem from="1734401757703" duration="1028000" />
       <workItem from="1734407218074" duration="23046000" />
-      <workItem from="1734486222634" duration="13672000" />
+      <workItem from="1734486222634" duration="15147000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <option name="closed" value="true" />
@@ -482,7 +498,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734431453067</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="数组—哈希表的部分整理完成">
+      <option name="closed" value="true" />
+      <created>1734503869329</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1734503869329</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +583,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="第二次提交" />
     <MESSAGE value="修改包名" />
     <MESSAGE value="再次修改包名" />
     <MESSAGE value="测试分支和移动文件" />
@@ -584,7 +607,8 @@
     <MESSAGE value="最长回文子串，保存第一版" />
     <MESSAGE value="滑动窗口的pb04_CheckInclusion，保留第二个思路" />
     <MESSAGE value="滑动窗口的pb04_CheckInclusion，保留第三个思路" />
-    <option name="LAST_COMMIT_MESSAGE" value="滑动窗口的pb04_CheckInclusion，保留第三个思路" />
+    <MESSAGE value="数组—哈希表的部分整理完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="数组—哈希表的部分整理完成" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Martin_Algorithm$code002_RemoveElement.ic" NAME="code002_RemoveElement Coverage Results" MODIFIED="1731772832419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
