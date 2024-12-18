@@ -20,13 +20,16 @@ public class FindMedianSortedArrays {
         if (left2 > right2) {
             return nums1[left1 + k - 1];
         }
+
         if (k == 1) {
             return Math.min(nums1[left1], nums2[left2]);
         }
+
         int m = k / 2;
         // 无论A数组长度是否>=m，只要对应的数小于B，就要截去相应部分。
         int index1 = Math.min(left1 + m - 1, right1);
         int index2 = Math.min(left2 + m - 1, right2);
+
         if (nums1[index1] < nums2[index2]) {
             return getKthSmallestNum(nums1, left1 + m, right1, nums2, left2, right2, k - Math.min(m, right1 - left1 + 1));
         } else {

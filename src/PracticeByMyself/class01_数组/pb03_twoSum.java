@@ -6,6 +6,7 @@ import java.util.HashMap;
  * @author mdy
  * @date 2024-12-07 16:27
  * @description <a href="https://leetcode.cn/problems/two-sum/">...</a>
+ * 思路1：遍历数组，用哈希表记录数值和下标，每次遍历时也查看哈希表中是否有可以组成target的数
  */
 public class pb03_twoSum {
 
@@ -14,7 +15,6 @@ public class pb03_twoSum {
     }
 
     public int[] twoSum(int[] nums, int target) {
-        int[] ans = new int[2];
         HashMap<Integer, Integer> map = new HashMap<>();
 
         for (int i = 0; i < nums.length; i++) {

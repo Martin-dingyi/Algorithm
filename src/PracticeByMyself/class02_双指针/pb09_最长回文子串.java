@@ -1,11 +1,12 @@
-package PracticeByMyself.class04_滑动窗口;
+package PracticeByMyself.class02_双指针;
 
 /**
  * @author mdy
  * @date 2024-12-16 21:02
  * @description <a href="https://leetcode.cn/problems/longest-palindromic-substring/submissions/587495714/">...</a>
+ * 几乎唯一使用背向双指针的题目
  */
-public class LongestPalindrome {
+public class pb09_最长回文子串 {
 
 
 
@@ -29,6 +30,8 @@ public class LongestPalindrome {
         return res;
     }
 
+    // 以mid1、mid2为中心，截取s中最长的回文子串
+    // 囊括了数组长度为奇数和偶数的情况，完美
     private static String findLongestPalindromeByMid(String s, int mid1, int mid2) {
 
         while(mid1 >= 0 && mid2 < s.length()) {

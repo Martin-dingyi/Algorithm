@@ -6,6 +6,8 @@ import java.util.Arrays;
  * @author mdy
  * @date 2024-12-12 9:29
  * @description <a href="https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/">...</a>
+ * 思路1：哈希表记录数值和下标，然后遍历数组找合适的数
+ * 思路2：使用相向双指针，
  */
 public class pb02_twoSumII {
 
@@ -21,6 +23,7 @@ public class pb02_twoSumII {
             if (numbers[left] + numbers[right] == target) {
                 return new int[]{left + 1, right + 1};
             } else if (numbers[left] + numbers[right] > target) {
+                // 由于数组有序，如果两指针数值之和过大，right指针需要左移
                 right--;
             } else {
                 left++;

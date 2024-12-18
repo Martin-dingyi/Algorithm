@@ -1,13 +1,12 @@
 package PracticeByMyself.class01_数组;
 
-import java.util.HashMap;
-
 /**
  * @author mdy
  * @date 2024-12-07 15:43
  * @description <a href="https://leetcode.cn/problems/valid-anagram/">...</a>
+ * 思路1：哈希表计数（可改用数组映射来计数，效率更高）
  */
-public class pb02_isAnagram {
+public class pb02_是不是Anagram {
 
     public static void main(String[] args) {
         String s = "anagram";

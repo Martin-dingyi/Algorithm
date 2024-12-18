@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 /**
  * @author mdy
  * @date 2024-12-17 14:58
@@ -33,9 +31,11 @@ public class rememberThis {
 
         for (int i = 0; i < chars.length; i++) {
             if (chars[i] >= 'A' && chars[i] <= 'Z') {
-                res[i] = (char) (chars[i] + 32);
+//                res[i] = (char) (chars[i] + 32);
+                res[i] = Character.toLowerCase(chars[i]);
             } else {
-                res[i] = (char) (chars[i] - 32);
+//                res[i] = (char) (chars[i] - 32);
+                res[i] = Character.toUpperCase(chars[i]);
             }
         }
 

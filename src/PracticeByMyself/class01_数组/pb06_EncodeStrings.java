@@ -1,14 +1,12 @@
 package PracticeByMyself.class01_数组;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
 
 /**
  * @author mdy
  * @date 2024-12-09 13:04
  * @description <a href="https://leetcode.cn/problems/product-of-array-except-self/description/">...</a>
+ *  思路1：使用前缀积
  */
 public class pb06_EncodeStrings {
 
@@ -24,6 +22,7 @@ public class pb06_EncodeStrings {
         int[] subfixProduct = new int[n];
         int[] res = new int[n];
 
+        // 计算并保存前缀积和后缀积
         for (int i = 0; i < n; i++) {
             if (i == 0) {
                 prefixProduct[i] = 1;

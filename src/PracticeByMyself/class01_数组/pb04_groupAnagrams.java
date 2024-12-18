@@ -9,6 +9,8 @@ import java.util.List;
  * @author mdy
  * @date 2024-12-07 16:33
  * @description <a href="https://leetcode.cn/problems/group-anagrams/">...</a>
+ * 思路1：用哈希表判断两个字符串是不是Anagram
+ * 思路2：给字符串排序再比较来判断是不是Anagram
  */
 public class pb04_groupAnagrams {
 
@@ -25,10 +27,8 @@ public class pb04_groupAnagrams {
             char[] chars = str.toCharArray();
             Arrays.sort(chars);
             String sortedStr = new String(chars);
-            List<String> tempList = hashMap.putIfAbsent(sortedStr, new ArrayList<>(List.of(str)));
-            if (tempList != null) {
-                tempList.add(str);
-            }
+            List<String> stringList = hashMap.computeIfAbsent(sortedStr, k -> new ArrayList<>());
+            stringList.add(str);
         }
 
         return new ArrayList<>(hashMap.values());

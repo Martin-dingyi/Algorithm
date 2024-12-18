@@ -4,9 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94648e41-8239-47ac-b2d5-e2ea8c95b98e" name="Changes" comment="滑动窗口的pb04_CheckInclusion，保留第二个思路">
+    <list default="true" id="94648e41-8239-47ac-b2d5-e2ea8c95b98e" name="Changes" comment="滑动窗口的pb04_CheckInclusion，保留第三个思路">
+      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class02_双指针/pb06_删除有序数组重复项.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class02_双指针/pb07_移除元素.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class02_双指针/pb08_移除零.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/pb05_最小覆盖子串.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/pb06_找出异位词.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/pb07_无重复最长子串.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class06_链表/pb01_reverseList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class06_链表/pb02_mergeTwoLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PracticeByMyself/class06_链表/pb03_reorderList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utils/ListNodeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/这里抄数组交换代码.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/FindMedianSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/FindMedianSortedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb01_containsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb01_存在重复数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb02_isAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb02_是不是Anagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb03_twoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb03_twoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb04_groupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb04_groupAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb05_topKFrequent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb05_topKFrequent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb06_EncodeStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb06_EncodeStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb07_isValidSudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb07_是有效的数独吗.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb08_longestConsecutive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class01_数组/pb08_longestConsecutive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class02_双指针/pb02_twoSumII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class02_双指针/pb02_twoSumII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class02_双指针/pb09_最长回文子串.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/pb04_CheckInclusion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticeByMyself/class04_滑动窗口/pb04_CheckInclusion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rememberThis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rememberThis.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +110,7 @@
     "Application.pb02_twoSumII.executor": "Run",
     "Application.pb03_CharacterReplacement.executor": "Run",
     "Application.pb03_kokoEatingBananas.executor": "Run",
+    "Application.pb03_reorderList.executor": "Run",
     "Application.pb03_threeSum.executor": "Run",
     "Application.pb04_CheckInclusion.executor": "Run",
     "Application.pb04_ContainerWithMostWater.executor": "Run",
@@ -92,10 +118,15 @@
     "Application.pb04_groupAnagrams.executor": "Run",
     "Application.pb05_searchInRotated.executor": "Run",
     "Application.pb05_topKFrequent.executor": "Run",
+    "Application.pb05_最小覆盖子串.executor": "Run",
     "Application.pb06_EncodeStrings.executor": "Run",
     "Application.pb06_TimeMap.executor": "Run",
+    "Application.pb06_删除有序数组重复项.executor": "Run",
+    "Application.pb06_找出异位词.executor": "Run",
     "Application.pb07_isValidSudoku.executor": "Run",
+    "Application.pb07_无重复最长子串.executor": "Run",
     "Application.pb08_longestConsecutive.executor": "Run",
+    "Application.pb08_移除零.executor": "Run",
     "Application.rememberThis.executor": "Run",
     "Application.test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -116,13 +147,13 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.pb04_CheckInclusion">
-    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class04_滑动窗口.LongestPalindrome" />
+  <component name="RunManager" selected="Application.pb08_longestConsecutive">
+    <configuration name="pb04_groupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class01_数组.pb04_groupAnagrams" />
       <module name="Martin_Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PracticeByMyself.class04_滑动窗口.*" />
+          <option name="PATTERN" value="PracticeByMyself.class01_数组.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pb02_LengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class04_滑动窗口.pb02_LengthOfLongestSubstring" />
+    <configuration name="pb06_删除有序数组重复项" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class02_双指针.pb06_删除有序数组重复项" />
       <module name="Martin_Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PracticeByMyself.class04_滑动窗口.*" />
+          <option name="PATTERN" value="PracticeByMyself.class02_双指针.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pb03_CharacterReplacement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class04_滑动窗口.pb03_CharacterReplacement" />
+    <configuration name="pb07_无重复最长子串" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class04_滑动窗口.pb07_无重复最长子串" />
       <module name="Martin_Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PracticeByMyself.class04_滑动窗口.*" />
+          <option name="PATTERN" value="PracticeByMyself.class02_双指针.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +187,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pb04_CheckInclusion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class04_滑动窗口.pb04_CheckInclusion" />
+    <configuration name="pb08_移除零" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class02_双指针.pb08_移除零" />
       <module name="Martin_Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PracticeByMyself.class04_滑动窗口.*" />
+          <option name="PATTERN" value="PracticeByMyself.class02_双指针.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,20 +200,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rememberThis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rememberThis" />
+    <configuration name="pb08_longestConsecutive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeByMyself.class01_数组.pb08_longestConsecutive" />
       <module name="Martin_Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PracticeByMyself.class01_数组.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.pb04_CheckInclusion" />
-        <item itemvalue="Application.pb03_CharacterReplacement" />
-        <item itemvalue="Application.pb02_LengthOfLongestSubstring" />
-        <item itemvalue="Application.rememberThis" />
-        <item itemvalue="Application.LongestPalindrome" />
+        <item itemvalue="Application.pb08_longestConsecutive" />
+        <item itemvalue="Application.pb04_groupAnagrams" />
+        <item itemvalue="Application.pb08_移除零" />
+        <item itemvalue="Application.pb06_删除有序数组重复项" />
+        <item itemvalue="Application.pb07_无重复最长子串" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +271,8 @@
       <workItem from="1734354116374" duration="2161000" />
       <workItem from="1734358052407" duration="537000" />
       <workItem from="1734401757703" duration="1028000" />
-      <workItem from="1734407218074" duration="14827000" />
+      <workItem from="1734407218074" duration="23046000" />
+      <workItem from="1734486222634" duration="13672000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <option name="closed" value="true" />
@@ -436,7 +474,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734430274693</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="滑动窗口的pb04_CheckInclusion，保留第三个思路">
+      <option name="closed" value="true" />
+      <created>1734431453067</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1734431453067</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -513,7 +559,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="第一次提交" />
     <MESSAGE value="第二次提交" />
     <MESSAGE value="修改包名" />
     <MESSAGE value="再次修改包名" />
@@ -538,7 +583,8 @@
     <MESSAGE value="二分法，pb05第一套方案保存" />
     <MESSAGE value="最长回文子串，保存第一版" />
     <MESSAGE value="滑动窗口的pb04_CheckInclusion，保留第二个思路" />
-    <option name="LAST_COMMIT_MESSAGE" value="滑动窗口的pb04_CheckInclusion，保留第二个思路" />
+    <MESSAGE value="滑动窗口的pb04_CheckInclusion，保留第三个思路" />
+    <option name="LAST_COMMIT_MESSAGE" value="滑动窗口的pb04_CheckInclusion，保留第三个思路" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Martin_Algorithm$code002_RemoveElement.ic" NAME="code002_RemoveElement Coverage Results" MODIFIED="1731772832419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">

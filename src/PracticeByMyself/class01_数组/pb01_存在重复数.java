@@ -1,15 +1,16 @@
 package PracticeByMyself.class01_数组;
 
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.HashSet;
 
 /**
  * @author mdy
  * @date 2024-12-07 15:29
  * @description <a href="https://leetcode.cn/problems/contains-duplicate/submissions/585616062/">...</a>
+ * 思路1：给数组排序，然后从后往前找
+ * 思路2：使用HashSet
  */
-public class pb01_containsDuplicate {
+public class pb01_存在重复数 {
 
     public static void main(String[] args) {
         int[] nums = new int[]{1, 2, 3, 1};

@@ -29,36 +29,38 @@ public class pb04_CheckInclusion {
         char[] chars1 = s1.toCharArray();
         char[] chars2 = s2.toCharArray();
 
-        Arrays.sort(chars1);
-        String sortedStr1 = new String(chars1);
+        int[] charCount1 = new int[26];
+        int[] charCount2 = new int[26];
 
-        int left = 0, right = 0;
+        for (char c : chars1) {
+            charCount1[c - 'a']++;
+        }
 
-        while (right < s2.length()) {
+        for (int left = 0, right = 0; right < chars2.length; right++) {
+
+            charCount2[chars2[right] - 'a']++;
+
             if (right - left + 1 != length1) {
-                right++;
                 continue;
             }
 
-            char[] tempChars = s2.substring(left, right + 1).toCharArray();
-            Arrays.sort(tempChars);
-            String tempStr = new String(tempChars);
-            if (sortedStr1.equals(tempStr)) {
+            if (isCharCountEqual(charCount1, charCount2)) {
                 return true;
             }
 
-            left++;
+            charCount2[chars2[left++] - 'a']--;
         }
 
         return false;
     }
 
-    private static boolean isCharCountMapEqual(HashMap<Character, Integer> source, HashMap<Character, Integer> target) {
-        for (Character c : source.keySet()) {
-            if (!target.containsKey(c) || !Objects.equals(source.get(c), target.get(c))) {
+    private static boolean isCharCountEqual(int[] charCount1, int[] charCount2) {
+        for (int i = 0; i < charCount1.length; i++) {
+            if (charCount1[i] != charCount2[i]) {
                 return false;
             }
         }
+
         return true;
     }
 
