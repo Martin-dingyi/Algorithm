@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @date 2024-12-12 9:29
  * @description <a href="https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/">...</a>
  * 思路1：哈希表记录数值和下标，然后遍历数组找合适的数
- * 思路2：使用相向双指针，
+ * 思路2：使用相向双指针
  */
 public class pb02_twoSumII {
 

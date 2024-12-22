@@ -6,7 +6,7 @@ import java.util.Arrays;
  * @author mdy
  * @date 2024-12-18 12:48
  * @description <a href="https://leetcode.cn/problems/remove-duplicates-from-sorted-array/submissions/587818764/">...</a>
- * 这个题目使用的同向的快慢双指针
+ * 思路1：:数组中的快慢双指针
  */
 public class pb06_删除有序数组重复项 {
 

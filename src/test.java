@@ -2,13 +2,16 @@ import java.util.HashMap;
 
 public class test {
     public static void main(String[] args) {
-        int[] nums1 = {1, 2, 2, 2, 2, 2, 4, 4, 4, 5};
-        int[] nums2 = {2, 3, 5, 8};
+//        int[] nums1 = {1, 2, 2, 2, 2, 2, 4, 4, 4, 5};
+//        int[] nums2 = {2, 3, 5, 8};
+//
+//        // 结果：1
+//        System.out.println(left_bound(nums1, 2));
+//        // 2
+//        System.out.println(left_bound(nums2, 4));
 
-        // 结果：1
-        System.out.println(left_bound(nums1, 2));
-        // 2
-        System.out.println(left_bound(nums2, 4));
+        String[] strings = {"hello", "world", "你好", "世界"};
+        System.out.println(String.join("#", strings));
     }
 
     public static void print(String a, int... i) {

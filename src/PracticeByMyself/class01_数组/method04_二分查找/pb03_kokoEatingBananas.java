@@ -10,27 +10,33 @@ import java.util.Arrays;
  */
 public class pb03_kokoEatingBananas {
     public static void main(String[] args) {
-        int[] piles = {30,11,23,4,20};
-        System.out.println(minEatingSpeed(piles, 5));
+        int[] piles1 = {30,11,23,4,20};
+        int[] piles2 = {312884470};
+        System.out.println(minEatingSpeed(piles1, 5));
+        System.out.println(minEatingSpeed(piles2, 312884469)); // 2
     }
 
     public static int minEatingSpeed(int[] piles, int h) {
-        int res = 0;
         // 找出k的极小和极大值
-        int leftMinK = Arrays.stream(piles).min().getAsInt();
-        int rightMaxK = Arrays.stream(piles).max().getAsInt();
+        int sum = 0;
+        int max = piles[0];
+        for (int pile : piles) {
+            sum += pile;
+            max = Math.max(max, pile);
+        }
+        int left = sum / h;
+        int right = max;
 
-        while (leftMinK <= rightMaxK) {
-            int k = leftMinK - ((leftMinK - rightMaxK) >> 1);
-            if (spendTime(piles, k) <= h) {
-                res = k;
-                rightMaxK = k - 1;
+        while (left <= right) {
+            int mid = left + ((right - left) >> 1);
+            if (spendTime(piles, mid) <= h) {
+                right = mid - 1;
             } else {
-                leftMinK = k + 1;
+                left = mid + 1;
             }
         }
 
-        return res;
+        return left;
     }
 
     private static int spendTime(int[] piles, int v) {

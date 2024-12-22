@@ -8,7 +8,7 @@ import java.util.HashSet;
  * @description <a href="https://leetcode.cn/problems/valid-sudoku/">...</a>
  * 思路1：利用二维数组的特性，用哈希表保存各行、各列、各个九宫格里的数字，有重复即无效
  */
-public class pb07_是有效的数独吗 {
+public class pb06_是有效的数独吗 {
 
     public static void main(String[] args) {
         char[][] board = {

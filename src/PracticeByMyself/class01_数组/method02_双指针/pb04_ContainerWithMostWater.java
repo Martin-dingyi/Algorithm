@@ -4,6 +4,8 @@ package PracticeByMyself.class01_数组.method02_双指针;
  * @author mdy
  * @date 2024-12-12 16:35
  * @description <a href="https://leetcode.cn/problems/container-with-most-water/">...</a>
+ * 注意：这题需要很强的观察能力，已经和双指针技巧本身关系不大
+ * 思路1：双指针+贪心，贪心是猜出来的，真正的严格证明比较难。
  */
 public class pb04_ContainerWithMostWater {
 

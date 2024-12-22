@@ -6,6 +6,7 @@ import java.util.HashMap;
  * @author mdy
  * @date 2024-12-18 10:20
  * @description <a href="https://leetcode.cn/problems/minimum-window-substring/description/">...</a>
+ * 思路1：用滑动窗口+valid位
  */
 public class pb05_最小覆盖子串 {
 

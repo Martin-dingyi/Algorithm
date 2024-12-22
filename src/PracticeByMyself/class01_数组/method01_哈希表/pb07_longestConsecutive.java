@@ -9,7 +9,7 @@ import java.util.Arrays;
  * 思路1：使用哈希表记录并查找值
  * 思路2：给数组排序
  */
-public class pb08_longestConsecutive {
+public class pb07_longestConsecutive {
 
     public static void main(String[] args) {
         int[] nums1 = {0, 3, 7, 2, 5, 8, 4, 6, 0, 1};
