@@ -4,6 +4,7 @@ package PracticeByMyself.class01_数组.method04_二分查找;
  * @author mdy
  * @date 2024-12-12 17:11
  * @description <a href="https://leetcode.cn/problems/search-a-2d-matrix/">...</a>
+ * 思路1：对每一行进行二分查找，或转成二维数组再二分查找
  */
 public class pb02_searchMatrix {
     public static void main(String[] args) {
@@ -17,15 +18,15 @@ public class pb02_searchMatrix {
     }
 
     public static boolean searchMatrix(int[][] matrix, int target) {
-        for (int i = 0; i < matrix.length; i++) {
+        for (int[] rows : matrix) {
             int left = 0;
             int right = matrix[0].length - 1;
             int mid;
             while (left <= right) {
                 mid = left - ((left - right) >> 1);
-                if (matrix[i][mid] > target) {
+                if (rows[mid] > target) {
                     right = mid - 1;
-                } else if (matrix[i][mid] < target) {
+                } else if (rows[mid] < target) {
                     left = mid + 1;
                 } else {
                     return true;

@@ -50,6 +50,56 @@ public class TreeUtils {
         return buildBinaryTreeByLevelOrder(list);
     }
 
+    // Decodes your encoded data to tree.
+    public static TreeNode deserializeTree(String data) {
+        if (data == null || data.isBlank()) {
+            return null;
+        }
+
+        if (data.charAt(0) == '[') {
+            data = data.substring(1);
+        }
+        if (data.charAt(data.length() - 1) == ']') {
+            data = data.substring(0, data.length() - 1);
+        }
+
+        String[] vals = data.split(",");
+
+        String firstVal = vals[0];
+        if (firstVal.equals("null")) {
+            return null;
+        }
+        Queue<TreeNode> queue = new LinkedList<>();
+        TreeNode root = new TreeNode(Integer.parseInt(firstVal));
+        queue.add(root);
+        int index = 1;
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            for (int i = 0; i < size; i++) {
+                TreeNode curNode = queue.poll();
+                assert curNode != null;
+                if (index >= vals.length || vals[index].equals("null")) {
+                    curNode.left = null;
+                } else {
+                    TreeNode temp = new TreeNode(Integer.parseInt(vals[index]));
+                    curNode.left = temp;
+                    queue.add(temp);
+                }
+                index++;
+                if (index >= vals.length || vals[index].equals("null")) {
+                    curNode.right = null;
+                } else {
+                    TreeNode temp = new TreeNode(Integer.parseInt(vals[index]));
+                    curNode.right = temp;
+                    queue.add(temp);
+                }
+                index++;
+            }
+        }
+
+        return root;
+    }
+
     public static void printBinaryTree(TreeNode head) {
         if (head == null) {
             return;
@@ -68,7 +118,6 @@ public class TreeUtils {
                     queue.offer(curNode.left);
                 }
                 if (curNode.right != null) {
-                    queue.offer(curNode.right);
                 }
             }
             System.out.println();

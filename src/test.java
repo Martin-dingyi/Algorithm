@@ -2,17 +2,23 @@ import java.util.HashMap;
 
 public class test {
     public static void main(String[] args) {
-//        int[] nums1 = {1, 2, 2, 2, 2, 2, 4, 4, 4, 5};
-//        int[] nums2 = {2, 3, 5, 8};
-//
-//        // 结果：1
-//        System.out.println(left_bound(nums1, 2));
-//        // 2
-//        System.out.println(left_bound(nums2, 4));
+        int[] nums1 = {1, 2, 2, 2, 2, 2, 4, 4, 4, 5};
+        int[] nums2 = {2, 3, 5, 8};
 
-        String[] strings = {"hello", "world", "你好", "世界"};
-        System.out.println(String.join("#", strings));
+        // 结果：1
+//        System.out.println(left_bound(nums1, 2));
+        // 2
+        System.out.println(left_bound(nums2, 4));
+        // 1
+        System.out.println(right_bound(nums2, 4));
+
+        StringBuilder sb = new StringBuilder();
+        sb.append("a").append("b");
+        System.out.println(sb);
+        System.out.println(sb.reverse());
+        System.out.println("abc".compareTo("abc"));
     }
+
 
     public static void print(String a, int... i) {
         System.out.println(a);
@@ -76,6 +82,23 @@ public class test {
             return -1;
         }
         // 判断一下 nums[left] 是不是 target
-        return nums[left] == target ? left : -1;
+        return left;
+    }
+
+    static int right_bound(int[] nums, int target) {
+        int left = 0, right = nums.length - 1;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] <= target) {
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
+
+        if (right < 0 || right >= nums.length) {
+            return -1;
+        }
+        return right;
     }
 }
